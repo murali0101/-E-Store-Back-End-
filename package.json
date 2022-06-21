@@ -1,0 +1,28 @@
+{
+  "name": "-e-store-back-end-",
+  "version": "1.0.0",
+  "description": "online store .....",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murali0101/-E-Store-Back-End-.git"
+  },
+  "keywords": [
+    "backend",
+    "E-Store",
+    "npm",
+    "server",
+    "express",
+    "nodeJS",
+    "mongo"
+  ],
+  "author": "murali m v",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murali0101/-E-Store-Back-End-/issues"
+  },
+  "homepage": "https://github.com/murali0101/-E-Store-Back-End-#readme"
+}
