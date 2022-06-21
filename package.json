@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/murali0101/-E-Store-Back-End-/issues"
   },
-  "homepage": "https://github.com/murali0101/-E-Store-Back-End-#readme"
+  "homepage": "https://github.com/murali0101/-E-Store-Back-End-#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  }
 }
