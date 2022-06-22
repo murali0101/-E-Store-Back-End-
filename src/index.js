@@ -8,5 +8,14 @@ app.use(express.json());
 
 app.use(cors());
 
+const { Signup, Login } = require('./controllers/auth.controller');
+
+
+
+
+
+app.post("/signup", Signup);
+
+app.post("/login", Login);
 
 module.exports = app; 
