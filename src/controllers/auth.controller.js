@@ -9,7 +9,7 @@ const createToken = (user) => {
 };
 
 
-const Signup = async (req, res) => {
+const SignUp = async (req, res) => {
     try {
         let user = await User.findOne({ email: req.body.email }).lean().exec();
 
@@ -29,7 +29,7 @@ const Signup = async (req, res) => {
 }
 
 
-const Login = async (req, res) => {
+const SignIn = async (req, res) => {
     try {
         const user = await User.findOne({ email: req.body.email });
 
@@ -53,4 +53,4 @@ const Login = async (req, res) => {
 };
 
 
-module.exports = { Signup, Login };
+module.exports = { SignUp,SignIn };
