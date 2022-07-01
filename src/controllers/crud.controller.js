@@ -38,7 +38,7 @@ const getOne = (model) => async (req, res) => {
     try {
         const item = await model.findById(req.params.id).lean().exec();
 
-        return res.status(201).send(item);
+        return res.status(200).send(item);
 
     } catch (e) {
         return res.status(500).json({ message: e.message, status: "Failed" });
