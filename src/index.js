@@ -17,11 +17,12 @@ const amountController = require("./controllers/amount.controller");
 const couponController = require("./controllers/coupon.controller");
 const addressController = require("./controllers/address.controller");
 const orderController = require("./controllers/order.controller");
+
 app.get("/", async (req, res) => {
   try {
-    send.status(200).send("Welcome E-Store");
+    res.status(200).send("Welcome E-Store");
   } catch (error) {
-    send.status(200).send(error.message);
+    res.status(400).send(error.message);
   }
 });
 
